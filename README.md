@@ -2,6 +2,9 @@
 
 A modern web application for discovering and exploring movies, built with React and Material-UI. Users can search for movies, view details, watch trailers, and maintain a list of favorites.
 
+## Deployment
+Using Vercel -> Link-----https://movie-sand-eight.vercel.app/
+
 ## Features
 
 - **User Authentication**: Simple login system with username/password
@@ -39,20 +42,17 @@ A modern web application for discovering and exploring movies, built with React 
 ### Installation
 
 1. Clone the repository:
-```bash
 git clone <repository-url>
 cd movie-explorer
-```
+
 
 2. Install dependencies:
-```bash
 npm install
-```
+
 
 3. Start the development server:
-```bash
 npm run dev
-```
+
 
 The application will be available at `http://localhost:5173`
 
@@ -111,20 +111,3 @@ src/
 - Loading states and error handling
 - Smooth animations and transitions
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- TMDb API for providing movie data
-- Material-UI for the component library
-- React community for excellent tools and libraries
