@@ -68,19 +68,6 @@ The application uses The Movie Database (TMDb) API. The API key is already confi
 - `/genre/movie/list` - Get movie genres
 - `/discover/movie` - Get movies by genre/year
 
-## Project Structure
-
-```
-src/
-├── api/
-│   └── movieApi.js       # API configuration and calls
-├── components/           # Reusable UI components
-├── contexts/            # React Context providers
-├── pages/              # Main application pages
-├── theme.js           # MUI theme configuration
-└── App.jsx            # Main application component
-```
-
 ## Features Implementation
 
 ### Authentication
